@@ -7,17 +7,20 @@ export default function Footer({}: FooterProps) {
     <div className='text-center'>
       <a href='#' className='flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900'>
         <img src='https://www.svgrepo.com/show/499962/music.svg' className='h-12 mr-3 sm:h-9' alt='Landwind Logo' />
-        Landwind
+        Arboleda
       </a>
 
       <span className='block text-sm text-center text-gray-500'>
-        © 2021-2022 Landwind™. All Rights Reserved. Built with
+        © 2024-2028 Arboleda™. All Rights Reserved. Built with
         <a href='https://flowbite.com' className='text-purple-600 hover:underline'>
-          Flowbite
-        </a>{' '}
+          My Brain
+        </a>
         and
         <a href='https://tailwindcss.com' className='text-purple-600 hover:underline'>
           Tailwind CSS
+        </a>
+        <a href='https://tailwindcss.com' className='text-purple-600 hover:underline'>
+         NextJS
         </a>
         .
       </span>
