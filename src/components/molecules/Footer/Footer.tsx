@@ -14,10 +14,13 @@ export default function Footer({}: FooterProps) {
         © 2024-2028 Arboleda™. All Rights Reserved. Built with
         <a href='https://flowbite.com' className='text-purple-600 hover:underline'>
           My Brain
-        </a>{' '}
+        </a>
         and
         <a href='https://tailwindcss.com' className='text-purple-600 hover:underline'>
           Tailwind CSS
+        </a>
+        <a href='https://tailwindcss.com' className='text-purple-600 hover:underline'>
+         NextJS
         </a>
         .
       </span>
