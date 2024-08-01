@@ -1,6 +1,8 @@
 import React from 'react'
 
-export type HeroProps = {}
+export type HeroProps = {
+  // Prop types go here
+}
 
 export default function Hero({}: HeroProps) {
   return (

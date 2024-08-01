@@ -1,9 +1,10 @@
-import React from 'react';
-import { expect } from 'chai';
-import Hero from './Hero';
+import React from 'react'
+import '@testing-library/jest-dom'
+import { render, screen } from '@testing-library/react'
+import Hero from './Hero'
 
-describe('Spec Hero', function () {
-    it('it exists', () => {
-        expect(Hero).to.be.ok;
-    });
-});
+describe('Hero', () => {
+  it('it exists', () => {
+    render(<Hero />)
+  })
+})

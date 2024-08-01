@@ -1,9 +1,14 @@
-import React from 'react';
-import { expect } from 'chai';
-import Gallery from './Gallery';
+import React from 'react'
+import '@testing-library/jest-dom'
+import { render, screen } from '@testing-library/react'
+import Gallery from './Gallery'
 
-describe('Spec Gallery', function () {
-    it('it exists', () => {
-        expect(Gallery).to.be.ok;
-    });
-});
+describe('Gallery', () => {
+  it('it exists', () => {
+    render(<Gallery />)
+
+    const heading = screen.getByRole('heading', { level: 1 })
+
+    expect(heading).toBeInTheDocument()
+  })
+})

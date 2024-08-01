@@ -1,7 +1,7 @@
 import React from 'react'
 import NavItem from '@/components/atoms/NavItem/NavItem'
 
-interface NavbarProps {
+export type NavbarProps = {
   name: string
 }
 const navItems = [

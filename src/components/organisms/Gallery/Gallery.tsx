@@ -1,6 +1,6 @@
 import React from 'react'
 
-interface GalleryProps {
+export type GalleryProps = {
   img?: string
   title?: string
   description?: string
