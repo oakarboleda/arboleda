@@ -1,9 +1,9 @@
-import React from 'react';
-import Gallery, { GalleryProps } from './Gallery';
+import React from 'react'
+import Gallery, { GalleryProps } from './Gallery'
 
 export default {
-    title: "Gallery",
-    component: Gallery
-};
+  title: 'Gallery',
+  component: Gallery
+}
 
-export const Default = (props: GalleryProps) => <Gallery {...props} />;
+export const Default = (props: GalleryProps) => <Gallery {...props} />
